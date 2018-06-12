@@ -1,0 +1,28 @@
+{
+  "name": "storysman-template-compiler",
+  "version": "0.0.1",
+  "description": "compiler for storysman's template",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lwyj123/storysman-template-compiler.git"
+  },
+  "keywords": [
+    "compiler"
+  ],
+  "author": "lwyj123",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lwyj123/storysman-template-compiler/issues"
+  },
+  "homepage": "https://github.com/lwyj123/storysman-template-compiler#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
